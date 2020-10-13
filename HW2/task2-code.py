@@ -60,10 +60,10 @@ for i in range(len(parts)):
 # print(indexes)
 # print(parts)
 
-password = " "*32
+password = " "*32 # the length of the password is 32
 for i in range(len(indexes)):
     start, end = indexes[i]
-    password = password[:start] + parts[i] + password[end:]
+    password = password[:start] + parts[i] + password[end:] # replace the spaces with part of the password
 # print(password)
 
 flag = password[password.index("{")+1: len(password)-1]
