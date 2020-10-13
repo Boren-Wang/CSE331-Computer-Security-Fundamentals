@@ -11,6 +11,9 @@ for i in range(len(lines)):
     encoded = jwt.encode({'user': 'john'}, line, algorithm='HS256')
     if encoded == b:
         key=line
+        print(i)
+        print(key
+              )
         break
 
 token = str(jwt.encode({'user': 'admin'}, key, algorithm='HS256'), encoding="utf-8")
