@@ -73,19 +73,17 @@ for port in ports:
             string = str(port) + "  filtered"
             print(string)
     elif checkres(response)=="open":
-        # ack_packet = IP(dst=target)/TCP(dport=port, flags="A")
-        # ack_packet.seq = packet.seq + 1
-        # ack_packet.ack = response.seq + 1
-        # response = sr1(ack_packet, timeout=0.5, verbose=1)
-        # response.show()
-        # sr(IP(dst=target)/TCP(dport=response.sport, flags="R"), timeout=0.5, verbose=1) # drop the connection
+        synack_packet_bytes = bytes(response)
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # https://stackoverflow.com/questions/34192093/python-socket-get
         s.connect((target, port))
         request = "GET / HTTP/1.1\r\nHost: "+target+"\r\n\r\n"
         s.sendall(request.encode(encoding='utf-8')) # https://stackoverflow.com/questions/43237853/python-typeerror-a-bytes-like-object-is-required-not-str
-        response = s.recv(1024).hex() # https://stackoverflow.com/questions/6624453/whats-the-correct-way-to-convert-bytes-to-a-hex-string-in-python-3/6624521
+        response = s.recv(1024) # https://stackoverflow.com/questions/6624453/whats-the-correct-way-to-convert-bytes-to-a-hex-string-in-python-3/6624521
         s.close
-        string = str(port)+"  open  " + response
+        fingerprint = synack_packet_bytes + response
+        if len(fingerprint) > 1024:
+            fingerprint = fingerprint[:1024]
+        string = str(port)+"  open  " + fingerprint.hex()
         print(string)
     elif checkres(response)=="closed":
         string = str(port) + "  closed"
