@@ -44,13 +44,23 @@ print("PORT STATUS  FINGERPRINT")
 for port in ports:
     # print("Port: "+str(port))
     packet = IP(dst=target)/TCP(dport=port, flags="S")
-    response = sr1(packet, timeout=0.5, verbose=0)
+    response = sr1(packet, timeout=1, verbose=0)
     if checkres(response)==None:
         gotresponse = False
         for i in range(3):
-            res = sr1(packet, timeout=0.5, verbose=0)
+            timeout = 2**(i)
+            res = sr1(packet, timeout=timeout, verbose=0)
             if checkres(res)=="open":
-                string = str(port) + "  open  " + "1234567890"
+                s = socket.socket(socket.AF_INET,
+                                  socket.SOCK_STREAM)  # https://stackoverflow.com/questions/34192093/python-socket-get
+                s.connect((target, port))
+                request = "GET / HTTP/1.1\r\nHost: " + target + "\r\n\r\n"
+                s.sendall(request.encode(
+                    encoding='utf-8'))  # https://stackoverflow.com/questions/43237853/python-typeerror-a-bytes-like-object-is-required-not-str
+                response = s.recv(
+                    1024).hex()  # https://stackoverflow.com/questions/6624453/whats-the-correct-way-to-convert-bytes-to-a-hex-string-in-python-3/6624521
+                s.close
+                string = str(port) + "  open  " + response
                 print(string)
                 gotresponse=True
                 break
@@ -60,7 +70,7 @@ for port in ports:
                 gotresponse=True
                 break
         if not gotresponse:
-            string = str(port) + "  filtered  "+"Port: "+str(port)+", 3 requests transmitted, 0 bytes received"
+            string = str(port) + "  filtered"
             print(string)
     elif checkres(response)=="open":
         # ack_packet = IP(dst=target)/TCP(dport=port, flags="A")
@@ -81,6 +91,7 @@ for port in ports:
         string = str(port) + "  closed"
         print(string)
 
+# +"Port: "+str(port)+", 3 requests transmitted, 0 bytes received"
 
 
 
