@@ -12,6 +12,10 @@ def checkres(response):
     elif response.haslayer(TCP) and response.getlayer(TCP).flags=="RA":
         return "closed"
 
+# I watched this tutorial https://www.youtube.com/watch?v=4Y-MR-Hec5Y&ab_channel=CristiVlad on how to build a port scanner
+# I learned the concepts, got inspiration, and then coded the majority of the function on my own.
+# I also referred to the official documentation for scapy quite often:
+# https://0xbharath.github.io/art-of-packet-crafting-with-scapy/network_recon/service_discovery/index.html
 def scan(target):
     print("==============================")
     print("Scanning "+target)
@@ -21,40 +25,18 @@ def scan(target):
         packet = IP(dst=target)/TCP(dport=port, flags="S")
         response = sr1(packet, timeout=0.5, verbose=0)
         if checkres(response)==None:
-            gotresponse = False
-            for i in range(2):
-                timeout = 2**i
-                res = sr1(packet, timeout=timeout, verbose=0)
-                if checkres(res)=="open":
-                    s = socket.socket(socket.AF_INET,
-                                      socket.SOCK_STREAM)  # https://stackoverflow.com/questions/34192093/python-socket-get
-                    s.connect((target, port))
-                    request = "GET / HTTP/1.1\r\nHost: " + target + "\r\n\r\n"
-                    s.sendall(request.encode(
-                        encoding='utf-8'))  # https://stackoverflow.com/questions/43237853/python-typeerror-a-bytes-like-object-is-required-not-str
-                    response = s.recv(
-                        1024).hex()  # https://stackoverflow.com/questions/6624453/whats-the-correct-way-to-convert-bytes-to-a-hex-string-in-python-3/6624521
-                    s.close()
-                    string = str(port) + "  open  " + response
-                    print(string)
-                    gotresponse=True
-                    break
-                elif checkres(res)=="closed":
-                    string = str(port) + "  closed"
-                    print(string)
-                    gotresponse=True
-                    break
-            if not gotresponse:
-                string = str(port) + "  filtered"
-                print(string)
+            string = str(port) + "  filtered"
+            print(string)
         elif checkres(response)=="open":
             synack_packet_bytes = bytes(response)
             response = ""
             timeout = False
             gotresponse = False
             for i in range(3):
+                # The following code snippet use socket to connect to the port and send a dummy request
+                # The source of the code snippet is https://stackoverflow.com/questions/34192093/python-socket-get
                 s = socket.socket(socket.AF_INET,
-                                  socket.SOCK_STREAM)  # https://stackoverflow.com/questions/34192093/python-socket-get
+                                  socket.SOCK_STREAM)
                 s.connect((target, port))
                 s.settimeout(2**i)
                 request = "GET / HTTP/1.1\r\nHost: "+target+"\r\n\r\n"
@@ -71,7 +53,7 @@ def scan(target):
             if gotresponse==True:
                 fingerprint = synack_packet_bytes+bytes(response)
                 if len(fingerprint) > 1024:
-                    fingerprint = fingerprint[:1024]
+                    fingerprint = fingerprint[:1024] # keep only the first 1024 bytes
                 string = str(port)+"  open  " + fingerprint.hex() # https://stackoverflow.com/questions/6624453/whats-the-correct-way-to-convert-bytes-to-a-hex-string-in-python-3/6624521
                 print(string)
             else:
@@ -95,6 +77,8 @@ if len(sys.argv) == 2:
 if len(sys.argv) == 4:
     ports = sys.argv[2]
     target = sys.argv[3]
+
+    # Here for each port numbers format, I use different logic to extract the port numbers
     if "-" in ports: # start-end
         start, end = ports.split("-")
         start = int(start)
@@ -111,19 +95,19 @@ if len(sys.argv) == 4:
     # print(ports)
     # print(target)
 
-if "/" in target: # if the target is a subnet https://stackoverflow.com/questions/13368659/how-can-i-loop-through-an-ip-address-range-in-python
+if "/" in target: # if the target is a subnet
     ips = []
-    for ip in ipaddress.IPv4Network(target):
+    for ip in ipaddress.IPv4Network(target): # https://stackoverflow.com/questions/13368659/how-can-i-loop-through-an-ip-address-range-in-python
         ips.append(str(ip))
     target = ips
-else:
+else: # if the target is a single IP address
     target = [target]
 
 if len(target) == 1:
     ip = target[0]
     scan(ip)
 else:
-    for ip in target:
+    for ip in target: # if there are more than one IP address
         scan(ip)
 
 
