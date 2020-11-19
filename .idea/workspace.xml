@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ef06af-bad3-4e1a-8efa-198743196bb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HW4/task2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4/task3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4/task3.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4/task4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4/task5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CSE331.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSE331.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/task6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/task7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/task8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW4/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,28 @@
       <recent name="$PROJECT_DIR$/HW4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task5">
+  <component name="RunManager" selected="Python.1">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CSE331" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CSE331" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,27 +84,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CSE331" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/task2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSE331" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,6 +97,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/task3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CSE331" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/task4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
@@ -127,17 +147,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CSE331" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/task6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.task2" />
       <item itemvalue="Python.task3" />
       <item itemvalue="Python.task5" />
+      <item itemvalue="Python.task6" />
+      <item itemvalue="Python.task4" />
+      <item itemvalue="Python.1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task5" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.task4" />
         <item itemvalue="Python.task3" />
-        <item itemvalue="Python.task2" />
+        <item itemvalue="Python.task6" />
+        <item itemvalue="Python.task5" />
       </list>
     </recent_temporary>
   </component>
@@ -153,25 +198,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605750194074">
+    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605760220846">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.923@72.27.1848.923" timestamp="1605750194074" />
-    <state width="1825" height="233" key="GridCell.Tab.0.bottom" timestamp="1605750185414">
+    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.923@72.27.1848.923" timestamp="1605760220846" />
+    <state width="1825" height="246" key="GridCell.Tab.0.bottom" timestamp="1605776205078">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state width="1825" height="233" key="GridCell.Tab.0.bottom/72.27.1848.923@72.27.1848.923" timestamp="1605750185414" />
-    <state width="1825" height="233" key="GridCell.Tab.0.center" timestamp="1605750185414">
+    <state width="1825" height="246" key="GridCell.Tab.0.bottom/72.27.1848.923@72.27.1848.923" timestamp="1605776205078" />
+    <state width="1825" height="246" key="GridCell.Tab.0.center" timestamp="1605776205077">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state width="1825" height="233" key="GridCell.Tab.0.center/72.27.1848.923@72.27.1848.923" timestamp="1605750185414" />
-    <state width="1825" height="233" key="GridCell.Tab.0.left" timestamp="1605750185413">
+    <state width="1825" height="246" key="GridCell.Tab.0.center/72.27.1848.923@72.27.1848.923" timestamp="1605776205077" />
+    <state width="1825" height="246" key="GridCell.Tab.0.left" timestamp="1605776205076">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state width="1825" height="233" key="GridCell.Tab.0.left/72.27.1848.923@72.27.1848.923" timestamp="1605750185413" />
-    <state width="1825" height="233" key="GridCell.Tab.0.right" timestamp="1605750185414">
+    <state width="1825" height="246" key="GridCell.Tab.0.left/72.27.1848.923@72.27.1848.923" timestamp="1605776205076" />
+    <state width="1825" height="246" key="GridCell.Tab.0.right" timestamp="1605776205078">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state width="1825" height="233" key="GridCell.Tab.0.right/72.27.1848.923@72.27.1848.923" timestamp="1605750185414" />
+    <state width="1825" height="246" key="GridCell.Tab.0.right/72.27.1848.923@72.27.1848.923" timestamp="1605776205078" />
   </component>
 </project>

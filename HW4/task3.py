@@ -1,11 +1,11 @@
-# help function
+# helper function
 def hex_string_to_ascii_string(hexstring): # https://www.kite.com/python/answers/how-to-convert-a-string-from-hex-to-ascii-in-python
     temp = bytes.fromhex(hexstring)
     asciistring=temp.decode("ASCII")
     return asciistring
 
 from pwn import *
-s=ssh(host="2019shell1.picoctf.com",user="Hohenheim10",password="mhw1015sz15,.")
+s=ssh(host="2019shell1.picoctf.com", user="Hohenheim10", password="mhw1015sz15,.")
 s.set_working_directory(wd=b"/problems/overflow-1_2_305519bf80dcdebd46c8950854760999")
 p = s.process("./vuln")
 

