@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ef06af-bad3-4e1a-8efa-198743196bb0" name="Default Changelist" comment="" />
+    <list default="true" id="61ef06af-bad3-4e1a-8efa-198743196bb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HW4/task2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/task3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/task5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CSE331.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSE331.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kKQOKFabbgeHQWUkIwmNmTmlRB" />
   <component name="ProjectViewState">
@@ -14,9 +34,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW4" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.task5">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CSE331" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -38,6 +64,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CSE331" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/task2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CSE331" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/task3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CSE331" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/task5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.task2" />
+      <item itemvalue="Python.task3" />
+      <item itemvalue="Python.task5" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.task5" />
+        <item itemvalue="Python.task3" />
+        <item itemvalue="Python.task2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,5 +151,27 @@
       <updated>1605446770801</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605750194074">
+      <screen x="72" y="27" width="1848" height="923" />
+    </state>
+    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.923@72.27.1848.923" timestamp="1605750194074" />
+    <state width="1825" height="233" key="GridCell.Tab.0.bottom" timestamp="1605750185414">
+      <screen x="72" y="27" width="1848" height="923" />
+    </state>
+    <state width="1825" height="233" key="GridCell.Tab.0.bottom/72.27.1848.923@72.27.1848.923" timestamp="1605750185414" />
+    <state width="1825" height="233" key="GridCell.Tab.0.center" timestamp="1605750185414">
+      <screen x="72" y="27" width="1848" height="923" />
+    </state>
+    <state width="1825" height="233" key="GridCell.Tab.0.center/72.27.1848.923@72.27.1848.923" timestamp="1605750185414" />
+    <state width="1825" height="233" key="GridCell.Tab.0.left" timestamp="1605750185413">
+      <screen x="72" y="27" width="1848" height="923" />
+    </state>
+    <state width="1825" height="233" key="GridCell.Tab.0.left/72.27.1848.923@72.27.1848.923" timestamp="1605750185413" />
+    <state width="1825" height="233" key="GridCell.Tab.0.right" timestamp="1605750185414">
+      <screen x="72" y="27" width="1848" height="923" />
+    </state>
+    <state width="1825" height="233" key="GridCell.Tab.0.right/72.27.1848.923@72.27.1848.923" timestamp="1605750185414" />
   </component>
 </project>
