@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbec7ab-0611-4275-bbef-209a95557585" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HW4/task4.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4/task5.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4/task6.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4/task7.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4/task8.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CSE331.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSE331.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4/task1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task1.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4/task2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task2.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4/task3.sh" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task3.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +16,27 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW4/task5.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HW4/task7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HW4/task7.py">
+        <entry file="file://$PROJECT_DIR$/HW4/task8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -76,6 +83,7 @@
         <option value="$PROJECT_DIR$/HW4/task6.sh" />
         <option value="$PROJECT_DIR$/HW4/task8.sh" />
         <option value="$PROJECT_DIR$/HW4/task7.py" />
+        <option value="$PROJECT_DIR$/HW4/task8.py" />
       </list>
     </option>
   </component>
@@ -126,6 +134,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HW4" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -305,9 +314,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13590844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13590844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -318,7 +326,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.42428377" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.42428377" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -403,9 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW4/task5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW4/task6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -420,10 +425,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HW4/task5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HW4/task7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW4/task8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
