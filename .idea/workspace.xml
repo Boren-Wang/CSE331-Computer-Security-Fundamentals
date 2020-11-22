@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbec7ab-0611-4275-bbef-209a95557585" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CSE331.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSE331.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/task4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
       <recent name="$PROJECT_DIR$/HW4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1">
+  <component name="RunManager" selected="Python.task4">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSE331" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSE331" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/task6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/task4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
@@ -179,29 +174,29 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.task6" />
       <item itemvalue="Python.task8" />
       <item itemvalue="Python.task1" />
       <item itemvalue="Python.task7" />
       <item itemvalue="Python.1" />
+      <item itemvalue="Python.task4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task4" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.task7" />
         <item itemvalue="Python.task1" />
         <item itemvalue="Python.task8" />
-        <item itemvalue="Python.task6" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="61ef06af-bad3-4e1a-8efa-198743196bb0" name="Default Changelist" comment="" />
+      <changelist id="fbbec7ab-0611-4275-bbef-209a95557585" name="Default Changelist" comment="" />
       <created>1605446770801</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -210,25 +205,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606009941110">
+    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606051785449">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.923@72.27.1848.923" timestamp="1606009941110" />
-    <state width="1825" height="388" key="GridCell.Tab.0.bottom" timestamp="1606014167399">
+    <state x="454" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.923@72.27.1848.923" timestamp="1606051785449" />
+    <state width="1825" height="388" key="GridCell.Tab.0.bottom" timestamp="1606051787736">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state width="1825" height="388" key="GridCell.Tab.0.bottom/72.27.1848.923@72.27.1848.923" timestamp="1606014167399" />
-    <state width="1825" height="388" key="GridCell.Tab.0.center" timestamp="1606014167398">
+    <state width="1825" height="388" key="GridCell.Tab.0.bottom/72.27.1848.923@72.27.1848.923" timestamp="1606051787736" />
+    <state width="1825" height="388" key="GridCell.Tab.0.center" timestamp="1606051787730">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state width="1825" height="388" key="GridCell.Tab.0.center/72.27.1848.923@72.27.1848.923" timestamp="1606014167398" />
-    <state width="1825" height="388" key="GridCell.Tab.0.left" timestamp="1606014167398">
+    <state width="1825" height="388" key="GridCell.Tab.0.center/72.27.1848.923@72.27.1848.923" timestamp="1606051787730" />
+    <state width="1825" height="388" key="GridCell.Tab.0.left" timestamp="1606051787729">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state width="1825" height="388" key="GridCell.Tab.0.left/72.27.1848.923@72.27.1848.923" timestamp="1606014167398" />
-    <state width="1825" height="388" key="GridCell.Tab.0.right" timestamp="1606014167398">
+    <state width="1825" height="388" key="GridCell.Tab.0.left/72.27.1848.923@72.27.1848.923" timestamp="1606051787729" />
+    <state width="1825" height="388" key="GridCell.Tab.0.right" timestamp="1606051787732">
       <screen x="72" y="27" width="1848" height="923" />
     </state>
-    <state width="1825" height="388" key="GridCell.Tab.0.right/72.27.1848.923@72.27.1848.923" timestamp="1606014167398" />
+    <state width="1825" height="388" key="GridCell.Tab.0.right/72.27.1848.923@72.27.1848.923" timestamp="1606051787732" />
   </component>
 </project>
